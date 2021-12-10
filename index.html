@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project UAS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-coffee"></i> Brapp Cafe </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">Drinks</a>
+        <a href="#categories">Foods</a>
+        <a href="#review">review</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/kjblackkopi.jpeg" alt="" />
+          <div class="content">
+            <h3>Black Coffee</h3>
+            <span class="price">Rp.15.000</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/kjicepop.jpeg" alt="" />
+          <div class="content">
+            <h3>Ice Pop Coffee</h3>
+            <span class="price">Rp.25.000</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/kjlatte.jpeg" alt="" />
+          <div class="content">
+            <h3>Coffee Latte</h3>
+            <span class="price">Rp.20.000</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : Rp.60.000</div>
+        <a href="#" class="btn">checkout</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box" />
+        <input type="password" placeholder="your password" class="box" />
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>
+          enjoy your day with friends at <span>brapp cafe <i class="fas fa-coffee"></i></span>
+        </h3>
+        <p>Diterima kunjungan sosialnya Bagi para pecinta kopi, Penikmat kopi, penyeduh kopi Yang ingin merasakan ngopi di brapp cafe.</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- features section starts  -->
+
+    <section class="features" id="features">
+      <h1 class="heading">our <span>features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/fwif.jpeg" alt="" />
+          <h3>Free wifi</h3>
+          <p>free wifi with speed 50 mbps</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="image/fdeliv.jpeg" alt="" />
+          <h3>free delivery</h3>
+          <p>free delivery for brondong area</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="image/fpay.jpeg" alt="" />
+          <h3>easy payments</h3>
+          <p>pay easier using digital money</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- features section ends -->
+
+    <!-- products section starts  -->
+
+    <section class="products" id="products">
+      <h1 class="heading">Drinks <span>Menu</span></h1>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/parab.jpeg" alt="" />
+            <h3>Coffee Arabica</h3>
+            <div class="price">Rp.18.000</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pcappuchio.jpeg" alt="" />
+            <h3>Cappuchino</h3>
+            <div class="price">Rp.20.000</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pgreentea.jpeg" alt="" />
+            <h3>Green Tea</h3>
+            <div class="price">Rp.15.000</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pwhite.jpeg" alt="" />
+            <h3>White Coffee</h3>
+            <div class="price">Rp.20.000</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/pjus.jpeg" alt="" />
+            <h3>Fruit Juice</h3>
+            <div class="price">Rp.10.000</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pkrim.jpeg" alt="" />
+            <h3>Ice Cream</h3>
+            <div class="price">Rp.10.000</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pblck.jpeg" alt="" />
+            <h3>Black Coffee</h3>
+            <div class="price">Rp.15.000</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pmilk.jpeg" alt="" />
+            <h3>Milkshake</h3>
+            <div class="price">Rp.15.000</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- Foods menu section starts  -->
+
+    <section class="categories" id="categories">
+      <h1 class="heading">Foods <span>Menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/fkwe.jpeg" alt="" />
+          <h3>Kwetiauw</h3>
+          <p>Rp.30.000</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="image/fnasgor.jpeg" alt="" />
+          <h3>Nasi Goreng</h3>
+          <p>Rp.25.000</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="image/fseb.jpeg" alt="" />
+          <h3>Seblak</h3>
+          <p>Rp.15.000</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="image/fnugg.jpeg" alt="" />
+          <h3>Nugget</h3>
+          <p>Rp.15.000</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Foods menu section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/dimas.jpeg" alt="" />
+            <p>Pelayanannya sangat ramah, harga terjangkau, dan cocok untuk pelajar/mahasiswa yang bosan mengerjakan tugas dirumah.</p>
+            <h3>Dimas Aditya</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/bimbim.jpeg" alt="" />
+            <p>Tempatnya luas, bersih dan juga nyaman, sehingga membuat para pengunjung betah nongkrong disana bersama teman-teman.</p>
+            <h3>Bim Bhenam</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/amana.jpeg" alt="" />
+            <p>Makanan dan Minumannya enak, dan juga proses pembuatannya cepat sehingga tidak membuat pengumjung bosan menunggu.</p>
+            <h3>Amanatul S.</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/boy.jpeg" alt="" />
+            <p>Tempatnya bagus dan juga nyaman, saran dari saya mungkin bisa ditambah live musik didalam cafe agar lebih seru dan rame.</p>
+            <h3>Risky Ndut</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Brapp Cafe <i class="fas fa-coffee"></i></h3>
+          <p>BUKA SETIAP HARI 09.00-23.00 Jl.Pendidikan no.1 Brondong Lamongan.</p>
+          <div class="share">
+            <a href="https://www.facebook.com/profile.php?id=100010009502787" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/Brapp00195561" class="fab fa-twitter"></a>
+            <a href="https://instagram.com/fngamlk_?utm_medium=copy_link" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/fangga-malik-alfian-0b7048221" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"> <i class="fas fa-phone"></i> +6285812097715 </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> fanggaalfian8@gmail.com </a>
+          <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Brondong, Lamongan - 62263 </a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+          <a href="#products" class="links"> <i class="fas fa-arrow-right"></i> drinks </a>
+          <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> foods </a>
+          <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>thanks for visiting</p>
+          <input type="email" placeholder="your email" class="email" />
+          <input type="submit" value="submit" class="btn" />
+          <img src="image/payment.png" class="payment-img" alt="" />
+        </div>
+      </div>
+
+      <div class="credit">created by : <span> fangga malik alfian - D4 IT A </span> | PENS</div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
